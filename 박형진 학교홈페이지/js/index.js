@@ -10,4 +10,5 @@ setInterval(function(){
     });
     cnt++;
     if(cnt>max) cnt = 0;
+    $(img[cnt]).animate({"left":"0"});
 },3000);
