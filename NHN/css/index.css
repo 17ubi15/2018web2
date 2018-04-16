@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wrap{width: 1440px; height: auto; margin: 0 auto;}
+header{width: 100%; height: 50px; background-color: #299dc6;}
+#headerbox{width: 80%; height: 100%; margin: 0 auto;}
+#logo{width: 207px; height: 33px; display: inline-block; margin-top: 5px;}
+#headerul{width: 160px; height: 100%; float: right;}
+#headerul > li{width: 80px; height: 100%; list-style: none; line-height: 50px; font-size: 16px; float: left; text-align: center; color: white; font-weight: bold;}
+
+section{width: 100%; height: auto;}
+#slidebox{width: 100%; height: 700px; position: relative;}
+#slideimg{width: 100%; height: 100%; position: absolute; z-index: -999;}
+#slidep{font-size: 70px; color: white; top: 100px; left: 150px; position: relative;}
+
+#content{width: 100%; height: 700px; padding: 60px 100px 0 100px;}
+#contentbox1{width: 573px; height: 582px; display: inline-block; margin-right: 38px; line-height: 582px;}
+#contentbox2{width: 289px; height: 285px; display: inline-block; top: -297px; position: relative;}
+#contentbox3{width: 289px; height: 285px; display: inline-block; margin-left: 38px; top: -297px; position: relative;}
+
+.imgp{display: inline-block; position: absolute; text-align: center; top: 200px; color: white; font-weight: bold; font-size: 14.5px;}
+#imgp2{left: 27px;}
+
+#contentimg1{width: 573px; height: 582px; display: inline-block; position: absolute;}
+#contentimg2{width: 289px; height: 285px; display: inline-block; position: absolute;}
+#contentimg3{width: 289px; height: 285px; display: inline-block; position: absolute;}
+
+#noticebox{width: 624px; height: 255px; background-color: #244a6f; left: 615px; position: relative; top: -260px; padding: 15px 30px 0 30px; color: white;}
+.notices{margin-bottom: 7px;}
+.notice-title{font-size: 22px; font-weight: bold; margin-bottom: 12px;}
+.notice-p{font-size: 14px;}
+.notice-p:hover{text-decoration: underline;}
+#recruitp{margin-top: 25px; display: inline-block;}
+.morep{font-size: 13px; float: right;}
+.morep:hover{text-decoration: underline;}
+#morep2{margin-top: 25px;}
+#newbtn{display: inline;}
+
+footer{width: 100%; height: 60px; background-color: #f78f36; color: white; text-align: center; position: relative; padding-top: 8px;}
