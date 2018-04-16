@@ -31,7 +31,7 @@ header{width: 100%; height: auto;}
 #notice-box{width: 600px; height: 200px; border: 1px solid #999; padding: 20px 30px 0 30px; display: inline-block;}
 #notice{color: #77abff; margin-bottom: 5px; display: inline-block;}
 #notice-more{float: right; text-decoration: underline; color: #777;}
-#notice-more:hover{color: black;}
+#notice-more:hover{color: black; font-weight: normal;}
 #notice-table{width: 100%; height: auto;}
 .notice-content:hover{text-decoration: underline;}
 .table-date{float: right; color: #666;}
