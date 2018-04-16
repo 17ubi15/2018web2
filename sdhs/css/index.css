@@ -34,5 +34,4 @@ header{width: 100%; height: auto;}
 #notice-more:hover{color: black; font-weight: normal;}
 #notice-table{width: 100%; height: auto;}
 .notice-content:hover{text-decoration: underline;}
-.notice-content:hover ~ .table-date{text-decoration: underline;}
 .table-date{float: right; color: #666;}
