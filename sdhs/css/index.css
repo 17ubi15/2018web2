@@ -46,7 +46,7 @@ header{width: 100%; height: auto;}
 #calendar_day{font-size: 80px; font-weight: bold;}
 
 /* 지도영역 */
-#map_box{width: 335px; height: 200px; border: 1px solid #999; display: inline-block; margin-left: 10px;}
+#map_box{width: 345px; height: 200px; border: 1px solid #999; display: inline-block; margin-left: 10px;}
 #map{width: 100%; height: 100%;}
 
 /* 급식영역 */
