@@ -14,6 +14,21 @@ setInterval(function(){
     $(img[cnt]).animate({"left":"0"});
 },3000);
 
+// 공지사항영역
+$("#homepaper").on("click",function(){
+    $("#notice").css({"color":"black"});
+    $("#homepaper").css({"color":"#77abff"});
+    $("#notice_table").css({"display":"none"});
+    $("#homepaper_table").css({"display":"table"});
+});
+
+$("#notice").on("click",function(){
+    $("#homepaper").css({"color":"black"});
+    $("#notice").css({"color":"#77abff"});
+    $("#homepaper_table").css({"display":"none"});
+    $("#notice_table").css({"display":"table"});
+});
+
 // 날짜
 setTimeout(function(){
     var today = new Date();

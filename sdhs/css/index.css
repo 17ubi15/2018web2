@@ -33,13 +33,20 @@ header{width: 100%; height: auto;}
 #slide_introduce p{line-height: 35px; font-size: 18px;}
 
 /* 공지사항 영역 */
-#notice_box{width: 600px; height: 200px; border: 1px solid #999; padding: 20px 30px 0 30px; display: inline-block; margin-bottom: 10px;}
-#notice{color: #77abff; margin-bottom: 5px; display: inline-block;}
+#notice_box{width: 600px; height: 200px; border: 1px solid #999; padding: 15px 30px 0 30px; display: inline-block; margin-bottom: 10px;}
+#notice{color: #77abff; margin-bottom: 10px; display: inline-block;}
 #notice_more{float: right; text-decoration: underline; color: #777; font-size: 13px;}
 #notice_more:hover{color: black; font-weight: normal;}
 #notice_table{width: 100%; height: auto;}
+#notice_table tbody{width: 100%;}
+#homepaper_table tbody{width: 100%;}
 .notice_content:hover{text-decoration: underline;}
 .table_date{float: right; color: #666;}
+
+#homepaper{margin-left: 12px; color: black; margin-bottom: 10px; display: inline-block;}
+#homepaper_table{width: 100%; height: auto; display: none;}
+.homepaper_content:hover{text-decoration: underline;}
+
 
 /* 일정영역 */
 #calendar_box{width: 245px; height: 200px; border: 1px solid #999; padding: 10px 30px 0 30px; display: inline-block; float: left; text-align: center;}
