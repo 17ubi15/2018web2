@@ -15,17 +15,27 @@ setInterval(function(){
 },3000);
 
 // 날짜
-var today = new Date();
-var year = today.getFullYear();
-var month = today.getMonth()+1;
-var day = today.getDate();
+setTimeout(function(){
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth()+1;
+    var day = today.getDate();
+    var thisweek = today.getDay();
+    var date = ["일","월","화","수","목","금","토"];
+    $(".year").append(year+'년');
+    $(".month").append(month+'월');
+    $("#calendar_day").append(day);
+    $(".week").append(date[thisweek]+'요일');
+    if(date[thisweek]==date[6]){
+        $("#calendar_day").css({"color":"blue"});
+    }else if(date[thisweek]==date[0]) {
+        $("#calendar_day").css({"color":"red"});
+    }else{
+        $("#calendar_day").css({"color":"black"});
+    };
+    $(".day").append(day+'일');
+},500);
 
-$(".year").append(year+'년');
-$(".month").append(month+'월');
-$(".day").append(day+'일');
-var thisweek = today.getDay();
-var date = ["월","화","수","목","금","토","일"];
-$(".week").append(date[thisweek-1]);
 
 // 지도
 function map(){
