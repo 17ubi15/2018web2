@@ -102,3 +102,23 @@ window.onload = function(){
         }, 50);
     }
 }
+
+// 슬라이드팝업
+$("#game_popup").on("click",function(){
+    $("#popup_background").fadeIn();
+    $("#popup_box").append('<img src="./images/game.jpg">');
+    $("#popup_box img").css({"width":"100%","height":"100%","position":"absolute"});
+});
+
+$("#popup_background").on("click",function(){
+    popup_close();
+});
+
+$("#popup_close-btn").on("click",function(){
+    popup_close();
+});
+
+function popup_close(){
+    $("#popup_background").css({"display":"none"});
+    $("#popup_box").empty();
+}
