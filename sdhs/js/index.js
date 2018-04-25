@@ -110,8 +110,22 @@ $("#game_popup").on("click",function(){
     $("#popup_box img").css({"width":"100%","height":"100%","position":"absolute"});
 });
 
-$("#popup_background").on("click",function(){
-    popup_close();
+$("#vr_popup").on("click",function(){
+    $("#popup_background").fadeIn();
+    $("#popup_box").append('<img src="./images/vr.jpg">');
+    $("#popup_box img").css({"width":"100%","height":"100%","position":"absolute"});
+});
+
+$("#space_popup").on("click",function(){
+    $("#popup_background").fadeIn();
+    $("#popup_box").append('<img src="./images/space.jpg">');
+    $("#popup_box img").css({"width":"100%","height":"100%","position":"absolute"});
+});
+
+$("#iot_popup").on("click",function(){
+    $("#popup_background").fadeIn();
+    $("#popup_box").append('<img src="./images/iot.PNG">');
+    $("#popup_box img").css({"width":"100%","height":"100%","position":"absolute"});
 });
 
 $("#popup_close-btn").on("click",function(){
@@ -120,5 +134,5 @@ $("#popup_close-btn").on("click",function(){
 
 function popup_close(){
     $("#popup_background").css({"display":"none"});
-    $("#popup_box").empty();
-}
+    $("#popup_box img").remove();
+};
