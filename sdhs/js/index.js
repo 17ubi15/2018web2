@@ -77,7 +77,7 @@ window.onload = function(){
     var $first;
     var $last;
 
-    $img.each(function(){ // 5px 간격으로 배너 처음 위치 시킴
+    $img.each(function(){ // 1px 간격으로 배너 처음 위치 시킴
         $(this).css("left",bannerLeft);
         bannerLeft += $(this).width()+1;
         $(this).attr("id", "banner"+(++imgCnt)); // img에 id 속성 추가
@@ -101,7 +101,7 @@ window.onload = function(){
             }
         }, 50);
     }
-}
+};
 
 // 슬라이드팝업
 $("#game_popup").on("click",function(){
