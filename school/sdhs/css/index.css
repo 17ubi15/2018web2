@@ -41,7 +41,7 @@ header{width: 100%; height: auto; position: relative; z-index: 1;}
 #popup_close-btn{float: right; font-size: 18px; color: white; cursor: pointer; position: relative; z-index: 1; margin-top: -20px;}
 
 /* 공지사항 영역 */
-#notice_box{width: 600px; height: 200px; border: 1px solid #999; padding: 15px 30px 0 30px; display: inline-block; margin-bottom: 10px;}
+#notice_box{width: 600px; height: 200px; border: 1px solid #999; padding: 15px 30px 0 30px; display: inline-block; margin-bottom: 10px; position: relative;}
 #notice{color: #77abff; margin-bottom: 10px; display: inline-block; cursor: pointer;}
 #notice_more{float: right; text-decoration: underline; color: #777; font-size: 13px;}
 #notice_more:hover{color: black; font-weight: normal;}

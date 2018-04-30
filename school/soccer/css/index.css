@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wrap{width: 648px; height: 818px; position: relative; background-image: url('../images/background.png');}
+li{width: 70px; height: 80px; position: absolute; list-style: none;}
+.human{width: 50px; height: 50px; border-radius: 50px; border: 1px solid white; margin: 0 auto;}
+.num{font-size: 20px; color: white; text-align: center; line-height: 50px;}
+.name{font-size: 11px; color: white; width: 70px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center;}
+
+#upbox{width: 100%; height: 50%; position: relative;}
+#upbox .human{background-color: #d13b3d;}
+#upone{top: 65px; left: 295px;}
+#uptwenty{top: 145px; left: 80px;}
+#upfifteen{top: 145px; left: 295px;}
+#uptwo{top: 145px; left: 503px;}
+#upthree{top: 230px; left: 50px;}
+#upthirty{top: 230px; left: 210px;}
+#upfive{top: 230px; left: 370px;}
+#upthirteen{top: 230px; left: 530px;}
+#upnineteen{top: 325px; left: 80px;}
+#upnine{top: 325px; left: 295px;}
+#upeleven{top: 325px; left: 503px;}
+
+#downbox{width: 100%; height: 50%; position: relative;}
+#downbox .human{background-color: #444444;}
+#downeight{top: 25px; left: 80px;}
