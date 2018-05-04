@@ -136,3 +136,12 @@ function popup_close(){
     $("#popup_background").css({"display":"none"});
     $("#popup_box img").remove();
 };
+
+// 로그인
+$("#login").on("click",function(){
+    $("#login_background").fadeIn();
+});
+
+$("#login_close").on("click",function(){
+    $("#login_background").fadeOut();
+});
