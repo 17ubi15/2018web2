@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-#wrap{width: 648px; height: 818px; position: relative; background-image: url('../images/background.png');}
+#wrap{width: 648px; height: 818px; position: relative; background-image: url('../images/background.png'); margin: 0 auto;}
 li{width: 70px; height: 80px; position: absolute; list-style: none;}
 .human{width: 50px; height: 50px; border-radius: 50px; border: 1px solid white; margin: 0 auto;}
-.num{font-size: 20px; color: white; text-align: center; line-height: 50px;}
+.num{font-size: 20px; color: white; text-align: center; line-height: 50px; font-weight: bold;}
 .name{font-size: 11px; color: white; width: 70px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center;}
 
 #upbox{width: 100%; height: 50%; position: relative;}
@@ -22,3 +22,17 @@ li{width: 70px; height: 80px; position: absolute; list-style: none;}
 #downbox{width: 100%; height: 50%; position: relative;}
 #downbox .human{background-color: #444444;}
 #downeight{top: 25px; left: 80px;}
+#downeleven{top: 25px; left: 295px;}
+#downtwenty-two{top: 25px; left: 503px;}
+#downtwelve{top: 115px; left: 50px;}
+#downthirteen{top: 115px; left: 210px;}
+#downfour{top: 115px; left: 370px;}
+#downtwo{top: 115px; left: 530px;}
+#downnineteen{top: 195px; left: 80px;}
+#downfive{top: 195px; left: 295px;}
+#downtwenty{top: 195px; left: 503px;}
+#downone{top: 280px; left: 295px;}
+
+.card{position: absolute; left: 5px;}
+.ball{width: 15px; height: 15px; position: absolute; top: 35px; left: 5px;}
+.arrow{position: absolute; top: 40px; left: 50px;}
