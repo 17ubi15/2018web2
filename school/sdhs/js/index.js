@@ -1,18 +1,45 @@
 // 이미지 슬라이드
-var img = $("#slide_box-content img");
-var cnt = 0;
-var max = img.length-1;
+var img = $("#slide_ul");
+var imgl = $("#slide_ul li")
+var imgw = $("#slide_ul li").width();
+var cnt = 1;
+var mcnt = cnt-1;
+var max = imgl.length;
+console.log(max);
 
 setInterval(function(){
     if(img.is(":animated")) return false;
-    $(img[cnt]).siblings().css({"left":"100%"});
-    $(img[cnt]).animate({"left":"-100%"}, function(){
-        $(this).css({"left":"100%"});
-    });
-    cnt++;
-    if(cnt>max) cnt = 0;
-    $(img[cnt]).animate({"left":"0"});
+    $(img).animate({"margin-left":-imgw*cnt});
+    cnt++
+    if(cnt>max-1) cnt=0;
+    $(img).animate({"left":"0"});
 },3000);
+
+$("#next").on("click", function(){
+    if(img.is(":animated")) return false;
+    $(img).animate({"margin-left":-imgw*cnt});
+    cnt++;
+    if(cnt>max-1) cnt=0;
+    $(img).animate({"left":"0"});
+});
+
+$("#prev").on("click", function(){
+    if(img.is(":animated")) return false;
+    if(cnt==2){
+        $(img).animate({"margin-left":"0px"});
+    }
+    else if(cnt==3){
+        $(img).animate({"margin-left":"-1000px"});
+    }
+    else if(cnt==4){
+        $(img).animate({"margin-left":"-2000px"});
+    }
+    else if(cnt==1){
+        $(img).animate({"margin-left":"-3000px"});
+        cnt=max+1;
+    }
+    cnt--;
+});
 
 // 공지사항영역
 $("#homepaper").on("click",function(){
