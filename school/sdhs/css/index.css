@@ -29,9 +29,9 @@ header{width: 100%; height: auto; position: relative; z-index: 1;}
 #slide_box{width: 100%; height: 500px; position: relative; z-index: 0; margin-bottom: 10px;}
 #slide_introduce{width: 400px; height: 200px; background-color: rgba(0,0,0,0.6); text-align: center; position: absolute; z-index: 10; color: white; top: 150px; left: 300px; padding: 10px;}
 .slide_introduce-point{color: #77abff; font-weight: bold;}
-#slide_introduce span{font-size: 24px;}
-#slide_introduce p{line-height: 20px; font-size: 18px; cursor: pointer;}
-#slide_introduce p:hover{text-decoration: underline;}
+.slide_introduce-span{font-size: 24px;}
+.popup_span{line-height: 35px; font-size: 18px; cursor: pointer;}
+.popup_span:hover{text-decoration: underline;}
 
 #slide_ul{width: 4000px; height: 500px; position: relative; z-index: 0;}
 #slide_ul li{width: 1000px; height: 100%; float: left; position: absolute; text-align: left;}
@@ -43,6 +43,9 @@ header{width: 100%; height: auto; position: relative; z-index: 1;}
 
 #slide_btn-box{position: absolute; z-index: 10; left: 900px; top: 440px;}
 #prev, #next{background-color: rgba(0,0,0,0); border: 0; font-size: 30px; color: white;}
+
+#nav_box{position: absolute; width: 100px; height: auto; left: 450px; top: 450px; z-index: 10;}
+.nav_btn{border-radius: 50%; width: 20px; height: 20px; background-color: #eee; float: left; margin-left: 2.5px; margin-right: 2.5px;}
 
 /* 팝업 */
 #popup_background{width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.5); z-index: 100; display: none;}
@@ -92,4 +95,4 @@ footer{width: 100%; height: 61px; border-top: 1px solid #999; padding: 5px 0;}
 
 /* 로그인 */
 #login_background{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: fixed; display: none; z-index: 100;}
-#login_box{border: 1px solid black; width: 250px; height: 200px; text-align: center; padding: 20px; top: 35%; left: 45%; background-color: white; position: fixed;}
+#login_box{border: 1px solid black; width: 250px; height: 200px; text-align: center; padding: 20px; top: 387px; background-color: white; margin: 0 auto; position: relative;}

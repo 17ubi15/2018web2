@@ -2,235 +2,245 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="./css/index.css">
-<title>서울디지텍고등학교</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>서울디지텍고등학교</title>
 </head>
 
 <body>
-<div id="login_background">
-<div id="login_box">
-    <span id="login_close">X</span>
-    <h2>LOGIN</h2><br />
-    <form action="index.html" method="post">
-        <label for="id">ID : </label><input type="text" id="id" name="id"><br />
-        <label for="pw">PW : </label><input type="password" id="pw" name="pw"><br /><br />
-        <button type="button" name="login">login</button>
-    </form>
-</div>
-</div>
-<div id="popup_background">
-<div id="popup_box">
-    <p id="popup_close-btn">close</p>
-</div>
-</div>
-<div id="wrap">
-<header>
-    <div id="spot">
-        <a href="#"><img src="./images/logo.png" alt="logo"></a>
-        <ul id="spot_ul">
-            <li><a href="#">사이트맵</a></li>
-            <li><a href="#">홈</a></li>
-            <li><a href="#" id="login">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
-        </ul>
-    </div>
-    <div id="header_box">
-        <ul>
-            <li><a href="#">학교소개</a>
-                <ul>
-                    <li><a href="#">설립정신</a></li>
-                    <li><a href="#">교훈/상징</a></li>
-                    <li><a href="#">학교연혁</a></li>
-                </ul>
-            </li>
-            <li><a href="#">알림마당</a>
-                <ul>
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">가정통신문</a></li>
-                    <li><a href="#">일정달력</a></li>
-                </ul>
-            </li>
-            <li><a href="#">입학안내</a>
-                <ul>
-                    <li><a href="#">입학안내</a></li>
-                    <li><a href="#">입학안내 블로그</a></li>
-                    <li><a href="#">교복안내</a></li>
-                </ul>
-            </li>
-            <li><a href="#">학생마당</a>
-                <ul>
-                    <li><a href="#">교수학습자료실</a></li>
-                    <li><a href="#">학생생활규정</a></li>
-                    <li><a href="#">방과후학교</a></li>
-                </ul>
-            </li>
-            <li><a href="#">열린마당</a>
-                <ul>
-                    <li><a href="#">교장선생님께</a></li>
-                    <li><a href="#">취업게시판</a></li>
-                    <li><a href="#">진학게시판</a></li>
-                </ul>
-            </li>
-            <li><a href="#">행정공개</a>
-                <ul>
-                    <li><a href="#">학교운영위원회</a></li>
-                    <li><a href="#">행정정보공개</a></li>
-                    <li><a href="#">행정소식</a></li>
-                </ul>
-            </li>
-            <li><a href="#">학교평가</a>
-                <ul>
-                    <li><a href="#">2015학년도</a></li>
-                    <li><a href="#">2016학년도</a></li>
-                    <li><a href="#">2017학년도</a></li>
-                </ul>
-            </li>
-            <li><a href="#">교사미니홈피</a>
-                <ul>
-                    <li><a href="#">김순상</a></li>
-                    <li><a href="#">이미자</a></li>
-                    <li><a href="#">이병찬</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</header>
-<section>
-    <div id="slide_box">
-        <div id="slide_btn-box">
-            <span id="prev">◀</span>
-            <span id="next">▶</span>
-        </div>
-        <div id="slide_introduce">
-            <span class="slide_introduce-point">S</span>
-            <span>eoul</span>
-            <span class="slide_introduce-point">D</span>
-            <span>igitech</span>
-            <span class="slide_introduce-point">H</span>
-            <span>igh</span>
-            <span class="slide_introduce-point">S</span>
-            <span>chool</span>
-            <p id="game_popup">GAME</p><br />
-            <p id="vr_popup">VR</p><br />
-            <p id="space_popup">SPACE</p><br />
-            <p id="iot_popup">IOT</p>
-        </div>
-        <ul id="slide_ul">
-            <li><img src="./images/slide1.jpg" alt="슬라이드 이미지1"></li>
-            <li><img src="./images/slide2.jpg" alt="슬라이드 이미지2"></li>
-            <li><img src="./images/slide3.jpg" alt="슬라이드 이미지3"></li>
-            <li><img src="./images/slide4.jpg" alt="슬라이드 이미지4"></li>
-        </ul>
-    </div>
-    <div id="notice_box">
-        <h2 id="notice">공지사항</h2>
-        <h2 id="homepaper">가정통신문</h2>
-        <a href="#" id="notice_more"><span>더보기</span></a>
-        <table id="notice_table">
-            <tbody>
-                <tr>
-                    <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-            </tbody>
-        </table>
-        <table id="homepaper_table">
-            <tbody>
-                <tr>
-                    <td><a href="#" class="homepaper_content">도제 화면구현 방과후 포트폴리오 페이지(가정통신문)</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="homepaper_content">가정통신문</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="homepaper_content">가정통신문</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="homepaper_content">가정통신문</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="homepaper_content">가정통신문</a></td>
-                    <td class="table_date">2018-04-13</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div id="lunch_box">
-        <p id="lunch_box-title">Today's Lunch</p>
-        <div id="datebox">
-            <span class="year"></span>
-            <span class="month"></span>
-            <span class="day"></span>
-        </div>
-        <img src="./images/lunch.jpg" alt="점심" id="lunch_img">
-        <div id="lunch_box-content">
-            <p id="lunch_kinds">밥, 국, 반찬1, 반찬2, 반찬3, 디저트</p>
+    <div id="login_background">
+        <div id="login_box">
+            <span id="login_close">X</span>
+            <h2>LOGIN</h2><br />
+            <form action="index.html" method="post">
+                <label for="id">ID : </label><input type="text" id="id" name="id"><br />
+                <label for="pw">PW : </label><input type="password" id="pw" name="pw"><br /><br />
+                <button type="button" name="login">login</button>
+            </form>
         </div>
     </div>
-    <div id="calendar_box">
-        <span class="year"></span>
-        <span> / </span>
-        <span class="month"></span><br />
-        <a href="#"><p id="calendar_day"></p></a>
-        <p class="week"></p><hr />
-        <p>일정이 없습니다.</p>
+    <div id="popup_background">
+        <div id="popup_box">
+            <p id="popup_close-btn">close</p>
+        </div>
     </div>
-    <div id="map_box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.8402511741506!2d126.98959635827424!3d37.53902809495074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca24eb401c3c3%3A0xcac6c402eb3ae54f!2z7ISc7Jq465SU7KeA7YWN6rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1524465259187" width="600" height="450" style="border:0" allowfullscreen id="map"></iframe>
+    <div id="wrap">
+        <header>
+            <div id="spot">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                <ul id="spot_ul">
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#" id="login">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+            <div id="header_box">
+                <ul>
+                    <li><a href="#">학교소개</a>
+                        <ul>
+                            <li><a href="#">설립정신</a></li>
+                            <li><a href="#">교훈/상징</a></li>
+                            <li><a href="#">학교연혁</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">알림마당</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">가정통신문</a></li>
+                            <li><a href="#">일정달력</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">입학안내</a>
+                        <ul>
+                            <li><a href="#">입학안내</a></li>
+                            <li><a href="#">입학안내 블로그</a></li>
+                            <li><a href="#">교복안내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학생마당</a>
+                        <ul>
+                            <li><a href="#">교수학습자료실</a></li>
+                            <li><a href="#">학생생활규정</a></li>
+                            <li><a href="#">방과후학교</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">열린마당</a>
+                        <ul>
+                            <li><a href="#">교장선생님께</a></li>
+                            <li><a href="#">취업게시판</a></li>
+                            <li><a href="#">진학게시판</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">행정공개</a>
+                        <ul>
+                            <li><a href="#">학교운영위원회</a></li>
+                            <li><a href="#">행정정보공개</a></li>
+                            <li><a href="#">행정소식</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학교평가</a>
+                        <ul>
+                            <li><a href="#">2015학년도</a></li>
+                            <li><a href="#">2016학년도</a></li>
+                            <li><a href="#">2017학년도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">교사미니홈피</a>
+                        <ul>
+                            <li><a href="#">김순상</a></li>
+                            <li><a href="#">이미자</a></li>
+                            <li><a href="#">이병찬</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div id="slide_box">
+                <div id="slide_btn-box">
+                    <span id="prev">◀</span>
+                    <span id="next">▶</span>
+                </div>
+                <div id="nav_box">
+                    <div class="nav_btn"></div>
+                    <div class="nav_btn"></div>
+                    <div class="nav_btn"></div>
+                    <div class="nav_btn"></div>
+                </div>
+                <div id="slide_introduce">
+                    <span class="slide_introduce-point slide_introduce-span">S</span>
+                    <span class="slide_introduce-span">eoul</span>
+                    <span class="slide_introduce-point slide_introduce-span">D</span>
+                    <span class="slide_introduce-span">igitech</span>
+                    <span class="slide_introduce-point slide_introduce-span">H</span>
+                    <span class="slide_introduce-span">igh</span>
+                    <span class="slide_introduce-point slide_introduce-span">S</span>
+                    <span class="slide_introduce-span">chool</span><br />
+                    <span class="popup_span" id="game_popup">GAME</span><br />
+                    <span class="popup_span" id="vr_popup">VR</span><br />
+                    <span class="popup_span" id="space_popup">SPACE</span><br />
+                    <span class="popup_span" id="iot_popup">IOT</span>
+                </div>
+                <ul id="slide_ul">
+                    <li><img src="./images/slide1.jpg" alt="슬라이드 이미지1"></li>
+                    <li><img src="./images/slide2.jpg" alt="슬라이드 이미지2"></li>
+                    <li><img src="./images/slide3.jpg" alt="슬라이드 이미지3"></li>
+                    <li><img src="./images/slide4.jpg" alt="슬라이드 이미지4"></li>
+                </ul>
+            </div>
+            <div id="notice_box">
+                <h2 id="notice">공지사항</h2>
+                <h2 id="homepaper">가정통신문</h2>
+                <a href="#" id="notice_more"><span>더보기</span></a>
+                <table id="notice_table">
+                    <tbody>
+                        <tr>
+                            <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="notice_content">도제 화면구현 방과후 포트폴리오 페이지</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table id="homepaper_table">
+                    <tbody>
+                        <tr>
+                            <td><a href="#" class="homepaper_content">도제 화면구현 방과후 포트폴리오 페이지(가정통신문)</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="homepaper_content">가정통신문</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="homepaper_content">가정통신문</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="homepaper_content">가정통신문</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" class="homepaper_content">가정통신문</a></td>
+                            <td class="table_date">2018-04-13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="lunch_box">
+                <p id="lunch_box-title">Today's Lunch</p>
+                <div id="datebox">
+                    <span class="year"></span>
+                    <span class="month"></span>
+                    <span class="day"></span>
+                </div>
+                <img src="./images/lunch.jpg" alt="점심" id="lunch_img">
+                <div id="lunch_box-content">
+                    <p id="lunch_kinds">밥, 국, 반찬1, 반찬2, 반찬3, 디저트</p>
+                </div>
+            </div>
+            <div id="calendar_box">
+                <span class="year"></span>
+                <span> / </span>
+                <span class="month"></span><br />
+                <a href="#">
+                    <p id="calendar_day"></p>
+                </a>
+                <p class="week"></p>
+                <hr />
+                <p>일정이 없습니다.</p>
+            </div>
+            <div id="map_box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.8402511741506!2d126.98959635827424!3d37.53902809495074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca24eb401c3c3%3A0xcac6c402eb3ae54f!2z7ISc7Jq465SU7KeA7YWN6rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1524465259187"
+                    width="600" height="450" style="border:0" allowfullscreen id="map"></iframe>
+            </div>
+            <div id="banner_box">
+                <ul>
+                    <li><a href="#"><img src="./images/banner1.png" alt="배너1" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner2.png" alt="배너2" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner3.png" alt="배너3" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner4.png" alt="배너4" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner5.png" alt="배너5" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner6.png" alt="배너6" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner7.png" alt="배너7" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner8.png" alt="배너8" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner9.png" alt="배너9" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner10.png" alt="배너10" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner11.png" alt="배너11" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner12.png" alt="배너12" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner13.png" alt="배너13" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner14.png" alt="배너14" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner15.png" alt="배너15" class="banner_img"></a></li>
+                    <li><a href="#"><img src="./images/banner16.png" alt="배너16" class="banner_img"></a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <img src="./images/logo.png" alt="footer_logo" id="footer_logo">
+            <p class="footer_content">[04346]서울 용산구 회나무로12길 27 (이태원동, 서울디지텍고등학교)</p>
+            <p class="footer_content">대표전화) 02 - 798 - 3641 ~ 3</p>
+            <p class="footer_content">Copyright (c) 2018 박형진. All rights reserved.</p>
+        </footer>
     </div>
-    <div id="banner_box">
-        <ul>
-            <li><a href="#"><img src="./images/banner1.png" alt="배너1" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner2.png" alt="배너2" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner3.png" alt="배너3" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner4.png" alt="배너4" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner5.png" alt="배너5" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner6.png" alt="배너6" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner7.png" alt="배너7" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner8.png" alt="배너8" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner9.png" alt="배너9" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner10.png" alt="배너10" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner11.png" alt="배너11" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner12.png" alt="배너12" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner13.png" alt="배너13" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner14.png" alt="배너14" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner15.png" alt="배너15" class="banner_img"></a></li>
-            <li><a href="#"><img src="./images/banner16.png" alt="배너16" class="banner_img"></a></li>
-        </ul>
-    </div>
-</section>
-<footer>
-    <img src="./images/logo.png" alt="footer_logo" id="footer_logo">
-    <p class="footer_content">[04346]서울 용산구 회나무로12길 27 (이태원동, 서울디지텍고등학교)</p>
-    <p class="footer_content">대표전화) 02 - 798 - 3641 ~ 3</p>
-    <p class="footer_content">Copyright (c) 2018 박형진. All rights reserved.</p>
-</footer>
-</div>
-<script src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 
